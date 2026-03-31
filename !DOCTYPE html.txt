@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramit Pariyar | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="images/profile.jpg" alt="Ramit Pariyar">
+  <h1>नमस्ते, म रामित परियार हुँ</h1>
+  <p>म interactive र professional websites बनाउँछु।</p>
+  <a href="projects.html" class="btn">मेरो काम हेर्नुहोस्</a>
+</section>
+
+<section class="skills">
+  <h2>मेरो Skills</h2>
+  <div class="skill">
+    <p>HTML</p>
+    <div class="bar"><div style="width: 95%"></div></div>
+  </div>
+  <div class="skill">
+    <p>CSS</p>
+    <div class="bar"><div style="width: 90%"></div></div>
+  </div>
+  <div class="skill">
+    <p>JavaScript</p>
+    <div class="bar"><div style="width: 85%"></div></div>
+  </div>
+</section>
+
+<button id="darkToggle">Light/Dark Toggle</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
